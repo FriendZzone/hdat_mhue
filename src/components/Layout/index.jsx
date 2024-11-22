@@ -7,8 +7,8 @@ import 'src/assets/css/icomoon.css';
 import 'src/assets/css/bootstrap.css';
 import 'src/assets/css/style.css';
 
-const IMAGE_URL = `https://cdn.shopify.com/s/files/1/0886/8672/3346/files/cover.jpg?v=1732289969`;
-const META_DESCRIPTION = `Trong không gian ấm cúng và tràn ngập niềm vui, chúng ta cùng nhau chứng kiến một sự kiện vô cùng ý nghĩa: ngày mà hai trái tim, hai cuộc đời, Hoàng Đạt và Minh Huệ, chính thức hòa quyện để xây dựng tổ ấm hạnh phúc`;
+const IMAGE_URL = `https://cdn.shopify.com/s/files/1/0886/8672/3346/files/cover_3.jpg?v=1732292006`;
+const META_DESCRIPTION = `helmet Trong không gian ấm cúng và tràn ngập niềm vui, chúng ta cùng nhau chứng kiến một sự kiện vô cùng ý nghĩa: ngày mà hai trái tim, hai cuộc đời, Hoàng Đạt và Minh Huệ, chính thức hòa quyện để xây dựng tổ ấm hạnh phúc`;
 
 function MainLayout({ children }) {
   return (
@@ -20,10 +20,10 @@ function MainLayout({ children }) {
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="The Wedding of Đạt & Huệ" />
+        <meta property="og:title" content="The Wedding of Đạt & Huệ title helmet" />
         <meta property="og:image" content={IMAGE_URL} />
         <meta property="og:url" content="https://thekusuma.com" />
-        <meta property="og:site_name" content="The Wedding of Đạt & Huệ" />
+        <meta property="og:site_name" content="The Wedding of Đạt & Huệ site_name helmet" />
         <meta property="og:description" content={META_DESCRIPTION} />
         <meta property="og:type" content="article" />
         <meta property="fb:app_id" content="1234567890" />
