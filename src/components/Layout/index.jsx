@@ -7,7 +7,7 @@ import 'src/assets/css/icomoon.css';
 import 'src/assets/css/bootstrap.css';
 import 'src/assets/css/style.css';
 
-const IMAGE_URL = `https://thekusuma.com/static/slide-6-4715e29302dbaa2ba21494c6258298d4.jpg`;
+const IMAGE_URL = `https://i.ibb.co/7Jx55TM/cover.jpg`;
 const META_DESCRIPTION = `Trong không gian ấm cúng và tràn ngập niềm vui, chúng ta cùng nhau chứng kiến một sự kiện vô cùng ý nghĩa: ngày mà hai trái tim, hai cuộc đời, Hoàng Đạt và Minh Huệ, chính thức hòa quyện để xây dựng tổ ấm hạnh phúc`;
 
 function MainLayout({ children }) {
@@ -25,6 +25,8 @@ function MainLayout({ children }) {
         <meta property="og:url" content="https://thekusuma.com" />
         <meta property="og:site_name" content="The Wedding of Đạt & Huệ" />
         <meta property="og:description" content={META_DESCRIPTION} />
+        <meta property="og:type" content="article" />
+        <meta property="fb:app_id" content="1234567890" />
         <meta name="twitter:title" content="The Wedding of Đạt & Huệ" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
         <meta name="twitter:image" content={IMAGE_URL} />
