@@ -34,6 +34,7 @@ export default [
       'react/no-unknown-property': ['error', { ignore: ['css'] }],
       'no-unused-vars': 'warn',
       'react/no-unescaped-entities': 'off',
+      'react/prop-types': 'off',
     },
   },
 ];

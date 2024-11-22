@@ -142,7 +142,7 @@ export const styBackground = css`
 
   @media screen and (max-width: 500px) {
     .title {
-      font-size: 54px;
+      font-size: 36px;
     }
 
     .sub-title {
@@ -162,9 +162,9 @@ export const styWrapper = css`
 
   h1 {
     margin-bottom: 0px;
-    font-size: 100px;
+    font-size: 72px;
     line-height: 1.5;
-    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
     color: #fff;
   }
 
@@ -177,7 +177,7 @@ export const styWrapper = css`
   }
 
   h4 {
-    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
     margin: 0;
     color: #fff;
     font-size: 30px;
@@ -272,6 +272,10 @@ export const styWrapperCount = css`
 
 export const styMargin = (px) => css`
   margin: ${px};
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
 `;
 
 export const styButtonWrapper = css`

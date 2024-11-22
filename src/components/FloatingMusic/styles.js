@@ -54,7 +54,7 @@ export const styWrapperModal = css`
   }
 
   .title {
-    font-family: 'Cookie', cursive;
+    font-family: 'Dancing Script', cursive;
     text-align: center;
     font-size: 50px;
     margin-bottom: 0px;

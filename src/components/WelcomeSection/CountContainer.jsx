@@ -1,7 +1,6 @@
-import React from 'react';
 import useDateCountdown from 'src//hooks/useDateCountdown';
-import CountItem from './CountItem';
 import ButtonLive from '../WeddingSection/ButtonLive';
+import CountItem from './CountItem';
 import { styMargin } from './styles';
 
 function CountContainer() {

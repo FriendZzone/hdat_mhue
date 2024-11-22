@@ -15,6 +15,8 @@ import StorySection from 'src/components/StorySection';
 import WeddingSection from 'src/components/WeddingSection';
 import WelcomeSection from 'src/components/WelcomeSection';
 import WishesSection from 'src/components/WishesSection';
+import FacebookComments from './components/FacebookComments';
+import { FacebookSDK } from './components/FacebookSDK';
 
 function App() {
   const location = window.location;
@@ -41,6 +43,8 @@ function App() {
         {isInvitation && <CovidSection />}
         {isInvitation && <LocationSection />}
         <StorySection />
+        <FacebookSDK />
+        <FacebookComments numPosts={5} width="100%" />
         <PhotoSection />
         <WishesSection />
         <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />
