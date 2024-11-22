@@ -7,7 +7,7 @@ import 'src/assets/css/icomoon.css';
 import 'src/assets/css/bootstrap.css';
 import 'src/assets/css/style.css';
 
-const IMAGE_URL = `https://i.ibb.co/7Jx55TM/cover.jpg`;
+const IMAGE_URL = `https://cdn.shopify.com/s/files/1/0886/8672/3346/files/cover.jpg?v=1732289969`;
 const META_DESCRIPTION = `Trong không gian ấm cúng và tràn ngập niềm vui, chúng ta cùng nhau chứng kiến một sự kiện vô cùng ý nghĩa: ngày mà hai trái tim, hai cuộc đời, Hoàng Đạt và Minh Huệ, chính thức hòa quyện để xây dựng tổ ấm hạnh phúc`;
 
 function MainLayout({ children }) {
