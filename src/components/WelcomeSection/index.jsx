@@ -23,7 +23,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
 
     try {
       const myAudio = document.getElementById('myAudio');
-      myAudio.play();
+      // myAudio.play();
     } catch {
       console.error('FAILED_TO_PLAY_MUSIC');
     }
