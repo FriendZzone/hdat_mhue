@@ -1,7 +1,5 @@
-import React from 'react';
-
-import { styScrollWrapper } from './styles';
 import { bool, func } from 'prop-types';
+import { styScrollWrapper } from './styles';
 
 function ClickToSeeDetail({ loading, onClick }) {
   return (
@@ -10,7 +8,7 @@ function ClickToSeeDetail({ loading, onClick }) {
         <div className="button">
           <span></span>
         </div>
-        <span className="text">{loading ? 'Menyiapkan data..' : 'Klik untuk Melihat Detail Acara'}</span>
+        <span className="text">{loading ? 'Một chút xíu...' : 'Bấm để xem chi tiết'}</span>
       </section>
     </div>
   );

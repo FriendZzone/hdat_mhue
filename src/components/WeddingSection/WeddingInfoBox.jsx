@@ -1,15 +1,11 @@
 import React from 'react';
 import { string } from 'prop-types';
 
-function WeddingInfoBox({ title, date, time, description }) {
+function WeddingInfoBox({ title, date, description }) {
   return (
     <div className="col-md-6 col-sm-6 text-center">
       <div className="event-wrap">
         <h3>{title}</h3>
-        <div className="event-col">
-          <i className="icon-clock"></i>
-          <span>{time}</span>
-        </div>
         <div className="event-col">
           <i className="icon-calendar"></i>
           <span>{date}</span>

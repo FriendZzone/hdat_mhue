@@ -21,10 +21,10 @@ function CountContainer() {
 
   return (
     <div className="col-md-12" css={styMargin('0 0 16px 0')}>
-      <CountItem text="Days" number={days} />
-      <CountItem text="Hours" number={hours} />
-      <CountItem text="Minutes" number={minutes} />
-      <CountItem text="Seconds" number={seconds} />
+      <CountItem text="Ngày" number={days} />
+      <CountItem text="Giờ" number={hours} />
+      <CountItem text="Phút" number={minutes} />
+      <CountItem text="Giây" number={seconds} />
     </div>
   );
 }

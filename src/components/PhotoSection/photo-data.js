@@ -1,70 +1,31 @@
-import Gallery1 from 'src/assets/images/gallery-1.jpg';
-import GalleryT1 from 'src/assets/images/gallery-t-1.jpg';
-import Gallery4 from 'src/assets/images/gallery-4.jpg';
-import GalleryT4 from 'src/assets/images/gallery-t-4.jpg';
-import Gallery5 from 'src/assets/images/gallery-5.jpg';
-import GalleryT5 from 'src/assets/images/gallery-t-5.jpg';
-import Image5 from 'src/assets/images/slide-5.jpg';
-import Image5thumb from 'src/assets/images/slide-5-thumb.jpg';
-import Image6 from 'src/assets/images/slide-6.jpg';
-import Image6thumb from 'src/assets/images/slide-6-thumb.jpg';
-import Gallery6 from 'src/assets/images/gallery-6.jpg';
-import GalleryT6 from 'src/assets/images/gallery-t-6.jpg';
-import Gallery7 from 'src/assets/images/gallery-7.jpg';
-import GalleryT7 from 'src/assets/images/gallery-t-7.jpg';
-import Gallery8 from 'src/assets/images/gallery-8.jpg';
-import GalleryT8 from 'src/assets/images/gallery-t-8.jpg';
-import Gallery9 from 'src/assets/images/gallery-9.jpg';
-import GalleryT9 from 'src/assets/images/gallery-t-9.jpg';
-import Gallery10 from 'src/assets/images/gallery-10.jpg';
-import GalleryT10 from 'src/assets/images/gallery-t-10.jpg';
-import Gallery11 from 'src/assets/images/gallery-11.jpg';
-import GalleryT11 from 'src/assets/images/gallery-t-11.jpg';
-import Gallery12 from 'src/assets/images/gallery-12.jpg';
-import GalleryT12 from 'src/assets/images/gallery-t-12.jpg';
-import Gallery13 from 'src/assets/images/gallery-13.jpg';
-import GalleryT13 from 'src/assets/images/gallery-t-13.jpg';
-import Gallery14 from 'src/assets/images/gallery-14.jpg';
-import GalleryT14 from 'src/assets/images/gallery-t-14.jpg';
-import Gallery15 from 'src/assets/images/gallery-15.jpg';
-import GalleryT15 from 'src/assets/images/gallery-t-15.jpg';
+import { default as Gallery10, default as GalleryT10 } from 'src/assets/images/gallery-10.jpg';
+import { default as Gallery11, default as GalleryT11 } from 'src/assets/images/gallery-11.jpg';
+import { default as Gallery12, default as GalleryT12 } from 'src/assets/images/gallery-12.jpg';
+import { default as Gallery13, default as GalleryT13 } from 'src/assets/images/gallery-13.jpg';
+import { default as Gallery14, default as GalleryT14 } from 'src/assets/images/gallery-14.jpg';
+import { default as Gallery4, default as GalleryT4 } from 'src/assets/images/gallery-4.jpg';
+import { default as Gallery5, default as GalleryT5 } from 'src/assets/images/gallery-5.jpg';
+import { default as Gallery6, default as GalleryT6 } from 'src/assets/images/gallery-6.jpg';
+import { default as Gallery7, default as GalleryT7 } from 'src/assets/images/gallery-7.jpg';
+import { default as Gallery8, default as GalleryT8 } from 'src/assets/images/gallery-8.jpg';
+import { default as Gallery9, default as GalleryT9 } from 'src/assets/images/gallery-9.jpg';
 
 export const photos = [
   {
-    original: Gallery1,
-    thumbnail: GalleryT1,
-  },
-  {
-    original: Image6,
-    thumbnail: Image6thumb,
-  },
-  {
-    original: Image5,
-    thumbnail: Image5thumb,
-  },
-  {
-    original: Gallery4,
-    thumbnail: GalleryT4,
-  },
-  {
-    original: Gallery5,
-    thumbnail: GalleryT5,
-  },
-  {
-    original: Gallery6,
-    thumbnail: GalleryT6,
+    original: Gallery8,
+    thumbnail: GalleryT8,
   },
   {
     original: Gallery7,
     thumbnail: GalleryT7,
   },
   {
-    original: Gallery8,
-    thumbnail: GalleryT8,
+    original: Gallery14,
+    thumbnail: GalleryT14,
   },
   {
-    original: Gallery9,
-    thumbnail: GalleryT9,
+    original: Gallery4,
+    thumbnail: GalleryT4,
   },
   {
     original: Gallery10,
@@ -75,19 +36,23 @@ export const photos = [
     thumbnail: GalleryT11,
   },
   {
+    original: Gallery5,
+    thumbnail: GalleryT5,
+  },
+  {
+    original: Gallery6,
+    thumbnail: GalleryT6,
+  },
+  {
+    original: Gallery9,
+    thumbnail: GalleryT9,
+  },
+  {
     original: Gallery12,
     thumbnail: GalleryT12,
   },
   {
     original: Gallery13,
     thumbnail: GalleryT13,
-  },
-  {
-    original: Gallery14,
-    thumbnail: GalleryT14,
-  },
-  {
-    original: Gallery15,
-    thumbnail: GalleryT15,
   },
 ];

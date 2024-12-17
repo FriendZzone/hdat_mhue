@@ -1,22 +1,19 @@
 import { Fragment, useState } from 'react';
-import getQueryValue from 'src/helpers/getQueryValue';
+import getQueryValue from './helpers/getQueryValue';
 /**
  * List of local components
  */
-import ConfirmationSection from 'src/components/ConfirmationSection';
-import CovidSection from 'src/components/Covid19';
-import FloatingMusic from 'src/components/FloatingMusic/Loadable';
-import FooterSection from 'src/components/FooterSection';
-import HelloSection from 'src/components/HelloSection';
-import MainLayout from 'src/components/Layout';
-import LocationSection from 'src/components/LocationSection';
-import PhotoSection from 'src/components/PhotoSection/Loadable';
-import StorySection from 'src/components/StorySection';
-import WeddingSection from 'src/components/WeddingSection';
-import WelcomeSection from 'src/components/WelcomeSection';
-import WishesSection from 'src/components/WishesSection';
 import FacebookComments from './components/FacebookComments';
 import { FacebookSDK } from './components/FacebookSDK';
+import FloatingMusic from './components/FloatingMusic/Loadable';
+import FooterSection from './components/FooterSection';
+import HelloSection from './components/HelloSection';
+import MainLayout from './components/Layout';
+import PhotoSection from './components/PhotoSection/Loadable';
+import StorySection from './components/StorySection';
+import WeddingSection from './components/WeddingSection';
+import WelcomeSection from './components/WelcomeSection';
+import './custom.css';
 
 function App() {
   const location = window.location;
@@ -40,14 +37,10 @@ function App() {
       <Fragment>
         <HelloSection isInvitation={isInvitation} />
         <WeddingSection isInvitation={isInvitation} />
-        {isInvitation && <CovidSection />}
-        {isInvitation && <LocationSection />}
-        <StorySection />
+        <PhotoSection />
+        {/* <StorySection /> */}
         <FacebookSDK />
         <FacebookComments numPosts={5} width="100%" />
-        <PhotoSection />
-        <WishesSection />
-        <ConfirmationSection guestName={firstName} isInvitation={isInvitation} codeLink={finalTicketLink} />
         <FooterSection isInvitation={isInvitation} />
       </Fragment>
     );

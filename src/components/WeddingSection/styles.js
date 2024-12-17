@@ -6,7 +6,7 @@ export const styWrapper = css`
   background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 70vh;
+  height: auto !important;
   color: #fff !important;
 
   .bismillah {
@@ -56,7 +56,7 @@ export const styButtonWrapper = css`
     color: #fff;
     font-weight: 500px;
     border-radius: 24px;
-    background: #f14e95;
+    background: #90cf8e;
     padding: 8px 16px;
   }
 

@@ -44,7 +44,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
   };
 
   const renderGuestSection = () => {
-    if (isAnonymGuest) return <h2 className="to-dearest-name">Dear Friends,</h2>;
+    if (isAnonymGuest) return <h2 className="to-dearest-name">Trân trọng kính mời</h2>;
 
     return (
       <Fragment>
@@ -74,7 +74,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
                 <CountContainer />
               </div>
               {renderGuestSection()}
-              {isInvitation && (
+              {/* {isInvitation && (
                 <div className="row" css={styButtonWrapper}>
                   <div className="col-md-3">
                     <a href={`/e-ticket?${codeLink}`}>
@@ -82,7 +82,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
                     </a>
                   </div>
                 </div>
-              )}
+              )} */}
             </div>
           </div>
           <div className="row">

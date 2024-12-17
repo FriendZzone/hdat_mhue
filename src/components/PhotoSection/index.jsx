@@ -7,38 +7,40 @@ function PhotoSection() {
   const renderYoutubeVideo = () => {
     return (
       <iframe
-        title="Pre-Wedding Dinda & Indra"
         width="100%"
-        height="360px"
-        src="https://www.youtube.com/embed/75w39OY7N-k"
+        height="600"
+        src="https://www.youtube.com/embed/saa3lsPJsdg"
+        title="Hoàng Đạt - Minh Huệ Wedding"
         frameBorder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowfullscreen
       ></iframe>
     );
   };
 
   return (
     <div id="fh5co-testimonial" className="fh5co-section-gray">
-      <div className="container">
+      <div className="container" style={{ padding: '46px' }}>
         <div className="row">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">#TheKusuma</h2>
+              <h2 className="main-font">#Photo</h2>
               <p className="sub-title">
-                "And of His signs is that He created for you from yourselves mates that you may find tranquility in
-                them; and He placed between you affection and mercy. Indeed in that are signs for a people who give
-                thought" <br />
-                (Ar-Rum 30:21).
+                "Tình yêu là thứ duy nhất mà bạn không thể mua được. Bạn có thể mua được mọi thứ bằng tiền, nhưng tình
+                yêu thì không. Tình yêu đòi hỏi sự chân thành, sự kiên nhẫn và đôi khi cả sự hy sinh. Đó là khi bạn đặt
+                hạnh phúc của người khác lên trước chính bản thân mình"
               </p>
             </div>
           </div>
           <div className="row">
-            <div className="col-md-10 col-md-offset-1">{renderYoutubeVideo()}</div>
+            <div className="col-md-10 col-md-offset-1 p-4" style={{ maxWidth: '500px' }}>
+              {renderYoutubeVideo()}
+            </div>
           </div>
           <div className="row">
-            <div className="col-md-10 col-md-offset-1">
-              <ImageGallery items={photos} showBullets={false} />;
+            <div className="col-md-10 col-md-offset-1 p-4">
+              <ImageGallery items={photos} showBullets={false} />
             </div>
           </div>
         </div>
