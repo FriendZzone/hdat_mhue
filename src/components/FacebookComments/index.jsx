@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-const FacebookComments = ({ url = 'http://localhost:5173', numPosts = 5, width = '100%' }) => {
+const FacebookComments = ({ url = 'https://hdat-mhue.vercel.app/', numPosts = 5, width = '100%' }) => {
   useEffect(() => {
     if (window.FB) {
       window.FB.XFBML.parse(); // Render the plugin if SDK is already loaded

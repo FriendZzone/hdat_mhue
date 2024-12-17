@@ -10,7 +10,6 @@ import FooterSection from './components/FooterSection';
 import HelloSection from './components/HelloSection';
 import MainLayout from './components/Layout';
 import PhotoSection from './components/PhotoSection/Loadable';
-import StorySection from './components/StorySection';
 import WeddingSection from './components/WeddingSection';
 import WelcomeSection from './components/WelcomeSection';
 import './custom.css';

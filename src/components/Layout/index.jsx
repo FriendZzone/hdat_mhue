@@ -7,25 +7,27 @@ import 'src/assets/css/icomoon.css';
 import 'src/assets/css/bootstrap.css';
 import 'src/assets/css/style.css';
 
-const IMAGE_URL = `https://thekusuma.com/static/slide-6-4715e29302dbaa2ba21494c6258298d4.jpg`;
-const META_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - Dinda & Indra`;
+const IMAGE_URL = `https://cdn.shopify.com/s/files/1/0886/8672/3346/files/cover_3.jpg?v=1732292006`;
+const META_DESCRIPTION = `helmet Trong không gian ấm cúng và tràn ngập niềm vui, chúng ta cùng nhau chứng kiến một sự kiện vô cùng ý nghĩa: ngày mà hai trái tim, hai cuộc đời, Hoàng Đạt và Minh Huệ, chính thức hòa quyện để xây dựng tổ ấm hạnh phúc`;
 
 function MainLayout({ children }) {
   return (
     <Fragment>
       <Helmet>
-        <title>Dinda ❤️ Indra Wedding</title>
+        <title>Đạt Huệ ❤️ Wedding</title>
 
         {/* Favicon */}
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="Đám cưới của Hoàng Đạt và Minh Huệ" />
+        <meta property="og:title" content="The Wedding of Đạt & Huệ title helmet" />
         <meta property="og:image" content={IMAGE_URL} />
         <meta property="og:url" content="https://thekusuma.com" />
-        <meta property="og:site_name" content="Đám cưới của Hoàng Đạt và Minh Huệ" />
+        <meta property="og:site_name" content="The Wedding of Đạt & Huệ site_name helmet" />
         <meta property="og:description" content={META_DESCRIPTION} />
-        <meta name="twitter:title" content="Đám cưới của Hoàng Đạt và Minh Huệ" />
+        <meta property="og:type" content="article" />
+        <meta property="fb:app_id" content="1234567890" />
+        <meta name="twitter:title" content="The Wedding of Đạt & Huệ" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
         <meta name="twitter:image" content={IMAGE_URL} />
         <meta name="twitter:url" content="https://thekusuma.com" />
