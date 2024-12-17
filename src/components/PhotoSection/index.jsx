@@ -33,10 +33,8 @@ function PhotoSection() {
               </p>
             </div>
           </div>
-          <div className="row">
-            <div className="col-md-10 col-md-offset-1 p-4" style={{ maxWidth: '500px' }}>
-              {renderYoutubeVideo()}
-            </div>
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div style={{ width: '444px' }}>{renderYoutubeVideo()}</div>
           </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1 p-4">
