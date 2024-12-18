@@ -18,13 +18,15 @@ function WeddingSection({ isInvitation }) {
             <div className="col-md-10 col-md-offset-1">
               <WeddingInfoBox
                 title="Tiệc cưới nhà trai"
-                date="16h Thứ 7 ngày 21/12/2024"
+                date="16h00 Thứ 7 ngày 21/12/2024"
                 description="Nhà văn hoá thôn Yên Quán, Tân Phú, Quốc Oai, Hà Nội"
+                map="https://maps.app.goo.gl/31tt9MPQiRkcinYT8"
               />
               <WeddingInfoBox
                 title="Tiệc cưới nhà gái"
-                date="16h Thứ 7 ngày 21/12/2024"
+                date="16h00 Thứ 7 ngày 21/12/2024"
                 description="Tư gia thôn Nghĩa Phú, Cẩm Vũ, Cẩm Giàng, Hải Dương"
+                map="https://maps.app.goo.gl/CRGkQwH6uSPiMDx69"
               />
             </div>
           </div>

@@ -3,8 +3,6 @@ import getQueryValue from './helpers/getQueryValue';
 /**
  * List of local components
  */
-import FacebookComments from './components/FacebookComments';
-import { FacebookSDK } from './components/FacebookSDK';
 import FloatingMusic from './components/FloatingMusic/Loadable';
 import FooterSection from './components/FooterSection';
 import HelloSection from './components/HelloSection';
@@ -13,6 +11,7 @@ import PhotoSection from './components/PhotoSection/Loadable';
 import WeddingSection from './components/WeddingSection';
 import WelcomeSection from './components/WelcomeSection';
 import './custom.css';
+import Wishes from './components/Wishes';
 
 function App() {
   const location = window.location;
@@ -36,10 +35,8 @@ function App() {
       <Fragment>
         <HelloSection isInvitation={isInvitation} />
         <WeddingSection isInvitation={isInvitation} />
+        <Wishes />
         <PhotoSection />
-        {/* <StorySection /> */}
-        <FacebookSDK />
-        <FacebookComments numPosts={5} width="100%" />
         <FooterSection isInvitation={isInvitation} />
       </Fragment>
     );

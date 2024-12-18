@@ -1,7 +1,7 @@
 import React from 'react';
 import { string } from 'prop-types';
 
-function WeddingInfoBox({ title, date, description }) {
+function WeddingInfoBox({ title, date, description, map }) {
   return (
     <div className="col-md-6 col-sm-6 text-center">
       <div className="event-wrap">
@@ -14,6 +14,13 @@ function WeddingInfoBox({ title, date, description }) {
           <div className="event-col">
             <i className="icon-location-pin"></i>
             <span dangerouslySetInnerHTML={{ __html: description }} />
+            {map && (
+              <a href={map} target="_blank" rel="noreferrer" style={{ marginLeft: '10px' }}>
+                <span>
+                  <u style={{ textWrap: 'nowrap' }}>xem Map</u>
+                </span>
+              </a>
+            )}
           </div>
         )}
       </div>

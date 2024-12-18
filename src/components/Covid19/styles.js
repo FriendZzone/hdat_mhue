@@ -23,14 +23,12 @@ export const styBoxWrapper = css`
     font-size: 1.2em;
   }
 
-  @media screen and (max-width: 480px) {
-    img {
-      max-width: 50px;
-      margin-right: 8px;
-    }
+  img {
+    max-width: 50px;
+    margin-right: 8px;
+  }
 
-    .text__info {
-      font-size: 1em;
-    }
+  .text__info {
+    font-size: 1em;
   }
 `;

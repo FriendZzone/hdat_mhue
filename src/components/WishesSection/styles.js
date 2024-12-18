@@ -48,10 +48,8 @@ export const styWrapperItem = css`
     font-size: 16px !important;
   }
 
-  @media screen and (max-width: 400px) {
-    .description {
-      font-size: 14px !important;
-    }
+  .description {
+    font-size: 14px !important;
   }
 `;
 

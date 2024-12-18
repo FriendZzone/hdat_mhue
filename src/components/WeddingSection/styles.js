@@ -21,9 +21,7 @@ export const styWrapper = css`
     font-family: 'Work Sans', Arial, sans-serif;
     font-weight: 400 !important;
 
-    @media screen and (max-width: 400px) {
-      font-size: 15px !important;
-    }
+    font-size: 15px !important;
   }
 
   .text__live {
@@ -34,10 +32,8 @@ export const styWrapper = css`
   .main-font {
     margin-top: 12px;
 
-    @media screen and (max-width: 400px) {
-      line-height: 1;
-      margin-bottom: 8px;
-    }
+    line-height: 1;
+    margin-bottom: 8px;
   }
 `;
 
@@ -56,7 +52,7 @@ export const styButtonWrapper = css`
     color: #fff;
     font-weight: 500px;
     border-radius: 24px;
-    background: #90cf8e;
+    background: #646464;
     padding: 8px 16px;
   }
 

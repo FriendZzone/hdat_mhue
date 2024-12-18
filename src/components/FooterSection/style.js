@@ -26,20 +26,16 @@ export const styWrapper = css`
     margin-top: 8px;
   }
 
-  @media screen and (max-width: 500px) {
-    .sub-title {
-      font-size: 18px;
-      margin: 0 0 8px 0;
-    }
+  .sub-title {
+    font-size: 18px;
+    margin: 0 0 8px 0;
 
     p {
       font-size: 16px;
     }
   }
 
-  @media screen and (max-width: 400px) {
-    p {
-      font-size: 14px;
-    }
+  p {
+    font-size: 14px;
   }
 `;

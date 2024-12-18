@@ -15,12 +15,10 @@ function HelloSection({ isInvitation }) {
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
               <h2 className="main-font">Save the date</h2>
-              <h3 className="sub-title hs">16h00 thứ 7 ngày 21/12/2024</h3>
+              <h3 className="sub-title hs main-font">16h00 thứ 7 ngày 21/12/2024</h3>
               <p className="info">
-                Gặp gỡ, yêu và cưới. Điều bạn vừa nghe không nằm trong một câu chuyện cổ tích, mà chính là câu chuyện về
-                cuộc đời hai chúng tôi Chúng tôi sẽ yêu thương, chăm sóc, trân trọng và nắm tay nhau cùng đi đến hết
-                cuộc đời này. Thật là một niềm vinh hạnh lớn khi ngày hạnh phúc nhất cuộc đời chúng tôi có sự hiện diện
-                và chúc phúc của bạn! Chân thành cảm ơn bạn ♥ ♥
+                Tình yêu là sự đồng điệu lạ kì của hai trái tim, như hòa chung một nhịp, là chia sẻ, là gắn kết, là xem
+                ai đó như cả thế giới, là muốn bên ai đó một đời
               </p>
             </div>
           </div>

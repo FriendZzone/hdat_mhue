@@ -4,7 +4,7 @@ import React, { Fragment, useState } from 'react';
 import WeddingImg from 'src/assets/images/wedding-logo.png';
 import CountContainer from './CountContainer';
 import ScrollToDown from './ScrollToDown';
-import { styBackground, styButtonWrapper, styHero, styWrapper } from './styles';
+import { styBackground, styHero, styWrapper } from './styles';
 
 const DELAY_TIME = 300;
 
@@ -23,7 +23,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
 
     try {
       const myAudio = document.getElementById('myAudio');
-      // myAudio.play();
+      myAudio.play();
     } catch {
       console.error('FAILED_TO_PLAY_MUSIC');
     }

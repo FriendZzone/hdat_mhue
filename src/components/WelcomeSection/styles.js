@@ -44,18 +44,14 @@ export const styScrollWrapper = css`
       animation: ${upAndDownAnimation} 1s infinite alternate;
     }
 
-    @media screen and (max-width: 414px) {
-      .text {
-        bottom: 80px;
-        font-size: 12px;
-      }
+    .text {
+      bottom: 80px;
+      font-size: 12px;
     }
 
-    @media screen and (max-width: 360px) {
-      .text {
-        bottom: 60px;
-        font-size: 12px;
-      }
+    .text {
+      bottom: 60px;
+      font-size: 12px;
     }
   }
 
@@ -106,16 +102,12 @@ export const styScrollWrapper = css`
       opacity: 0.5;
     }
 
-    @media screen and (max-width: 414px) {
-      .button {
-        bottom: 80px;
-      }
+    .button {
+      bottom: 80px;
     }
 
-    @media screen and (max-width: 360px) {
-      .button {
-        bottom: 65px;
-      }
+    .button {
+      bottom: 65px;
     }
   }
 `;
@@ -130,24 +122,20 @@ export const styBackground = css`
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 400px) {
-    .title {
-      font-size: 40px;
-    }
-
-    .sub-title {
-      font-size: 28px;
-    }
+  .title {
+    font-size: 40px;
   }
 
-  @media screen and (max-width: 500px) {
-    .title {
-      font-size: 36px;
-    }
+  .sub-title {
+    font-size: 28px;
+  }
 
-    .sub-title {
-      font-size: 28px;
-    }
+  .title {
+    font-size: 36px;
+  }
+
+  .sub-title {
+    font-size: 28px;
   }
 `;
 
@@ -205,24 +193,22 @@ export const styWrapper = css`
   }
 
   a {
-    color: #90cf8e;
+    color: #646464;
   }
 
-  @media screen and (max-width: 330px) {
-    img {
-      max-width: 40px;
-      margin-top: 24px;
-      margin-bottom: 8px;
-    }
+  img {
+    max-width: 40px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
 
-    .to-dearest {
-      margin-bottom: 8px;
-      font-size: 16px;
-    }
+  .to-dearest {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
 
-    .to-dearest-name {
-      margin: auto auto 16px auto;
-    }
+  .to-dearest-name {
+    margin: auto auto 16px auto;
   }
 `;
 
@@ -243,30 +229,26 @@ export const styWrapperCount = css`
     margin: 20px 0 0 0;
   }
 
-  @media screen and (max-width: 500px) {
-    width: 75px;
-    height: 75px;
-    margin: 4px;
-    font-size: 12px;
+  width: 75px;
+  height: 75px;
+  margin: 4px;
+  font-size: 12px;
 
-    h3 {
-      font-size: 24px;
-    }
+  h3 {
+    font-size: 24px;
   }
 
-  @media screen and (max-width: 380px) {
-    width: 55px;
-    height: 55px;
+  width: 55px;
+  height: 55px;
 
-    h3 {
-      margin-top: 12px;
-      margin-bottom: -4px;
-      font-size: 16px;
-    }
+  h3 {
+    margin-top: 12px;
+    margin-bottom: -4px;
+    font-size: 16px;
+  }
 
-    span {
-      font-size: 10px;
-    }
+  span {
+    font-size: 10px;
   }
 `;
 
@@ -283,7 +265,7 @@ export const styButtonWrapper = css`
   justify-content: center;
 
   .btn {
-    background: #90cf8e;
+    background: #646464;
     color: #fff;
     border: none;
   }
