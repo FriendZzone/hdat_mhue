@@ -8,7 +8,7 @@ function Wishes(props) {
   const [isCopied, setIsCopied] = useState(false);
 
   const handleCopyText = async () => {
-    const currentQR = showTicket === 'co_dau' ? '5022032024' : '217827288';
+    const currentQR = showTicket === 'co_dau' ? '107003567696' : '217827288';
 
     try {
       // Copy text to clipboard
@@ -47,12 +47,17 @@ function Wishes(props) {
           style={{
             width: '100%',
             textAlign: 'center',
-            height: showTicket ? '600px' : '0',
+            height: showTicket ? '620px' : '0',
             overflow: 'hidden',
             transition: 'all 0.5s ease-in',
           }}
         >
-          <img src={showTicket === 'co_dau' ? QRCoDau : QRChuRe} alt="qr" style={{ width: '80%' }} loading="lazy" />
+          <img
+            src={showTicket === 'co_dau' ? QRCoDau : QRChuRe}
+            alt="qr"
+            style={{ width: '80%', margin: '8px 0' }}
+            loading="lazy"
+          />
           <button className="btn btn-primary" onClick={handleCopyText}>
             {isCopied ? 'Đã copy Số tài khoản' : 'Copy Số tài khoản'}
           </button>
